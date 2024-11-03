@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Securani</title>
+    <link>https://securani.com/</link>
+    <description>Recent content on Securani</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://securani.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginning of Our Journey</title>
+      <link>https://securani.com/writeupsandnews/post1/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://securani.com/writeupsandnews/post1/</guid>
+      <description>&lt;p align=&#39;justify&#39;&gt;Join us as we embark on an exciting adventure in the world of Capture The Flag (CTF) challenges. Our mission is to learn, grow, and have fun while improving our skills in cybersecurity.&lt;br&gt;&lt;br&gt; Click to read full post</description>
+    </item>
+    <item>
+      <title>M0U</title>
+      <link>https://securani.com/members/m0u/</link>
+      <pubDate>Wed, 31 Dec 1969 19:16:39 -0500</pubDate>
+      <guid>https://securani.com/members/m0u/</guid>
+      <description>CTF players are like digital raccoons — always digging through trash files at 3 a.m. hoping to find something valuable.&lt;br&gt;&lt;br&gt;&lt;br&gt;Everything worth doing is difficult.</description>
+    </item>
+    <item>
+      <title>Krzyttt</title>
+      <link>https://securani.com/members/krzyttt/</link>
+      <pubDate>Wed, 31 Dec 1969 19:16:38 -0500</pubDate>
+      <guid>https://securani.com/members/krzyttt/</guid>
+      <description>Just a guy walking through a maze of cybersecurity. &lt;br&gt;&lt;br&gt; OSINT, Cryptography, Forensics&lt;br&gt;&lt;br&gt;&#xA;Theory will only take you so far.</description>
+    </item>
+  </channel>
+</rss>
