@@ -1,19 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://securani.com/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://securani.com/writeupsandnews/post1/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://securani.com/writeupsandnews/</loc>
     <lastmod>2024-11-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://securani.com/members/</loc>
-    <lastmod>1969-12-31T19:16:39-05:00</lastmod>
-  </url><url>
+    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://securani.com/contact/</loc>
+    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
   </url>
 </urlset>
